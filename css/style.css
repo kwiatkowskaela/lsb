@@ -69,6 +69,14 @@
     z-index: -1;
 }*/
 
+.logo {
+	position: absolute;
+	transform: translateY(-50%);
+}
+
+
+/* top 11px mobile */
+
 
 /* 1. IMPORT FONTÓW */
 
@@ -285,7 +293,6 @@ label {
 	position: relative;
 	top: 39px;
 	width: 100%;
-	top: 50%;
 	left: calc(50vw-570px);
 	transform: translateY(-50%);
 }
