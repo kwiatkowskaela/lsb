@@ -15,9 +15,13 @@
 	
 ?>
 
-<!DOCTYPE HTML>
-<html lang="en-US">
-<head>
-	<script>alert("Thank you for contact us. As early as possible  we will contact you.");</script>
-	<meta HTTP-EQUIV="REFRESH" content="0; url=../index.html"> 
-</head>
+	<!DOCTYPE HTML>
+	<html lang="pl">
+
+	<head>
+		<script>
+			alert("Thank you for contact us. As early as possible  we will contact you.");
+
+		</script>
+		<meta HTTP-EQUIV="REFRESH" content="0; url=../index.html">
+	</head>
