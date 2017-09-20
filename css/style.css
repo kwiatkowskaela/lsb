@@ -38,7 +38,7 @@
     -ms-transform: rotate(-9deg);
     -webkit-transform: rotate(-9deg);
     transform: rotate(-9deg);
-    background: #000;
+    background:  #3c4b61;
     height: 414px;
     width: 200%;
     top: -85px;
@@ -60,7 +60,7 @@
     -ms-transform: rotate(9deg);
     -webkit-transform: rotate(9deg);
     transform: rotate(9deg);
-    background: #000;
+    background:  #3c4b61;
     height: 414px;
     width: 200%;
     bottom: -160px;
@@ -194,6 +194,34 @@ label {
 
 /* 3. BUTTONY */
 
+.icons {
+	background-color: #3c4b61;
+	font-size: 30px;
+	padding: 10px;
+	border-radius: 5px;
+	color: white;
+}
+
+.st-service>h2 {
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.icons:hover {
+	cursor: pointer;
+	background-color: #ED1C24;
+}
+
+.st-service:hover h2 {
+	cursor: pointer;
+	color: #ED1C24;
+}
+
+.transition {
+	transition-duration: 2s;
+}
+
 .btn-send {
 	background-color: #3c4b61;
 	border-radius: 0;
@@ -208,7 +236,7 @@ label {
 }
 
 .btn-send:hover {
-	background-color: #3c4b61;
+	background-color: #3a3c3e;
 	color: #fff;
 }
 
@@ -228,7 +256,7 @@ label {
 }
 
 .btn-readmore:hover {
-	background-color: #000;
+	background-color: #3a3c3e;
 	color: #fff;
 }
 
@@ -298,7 +326,7 @@ label {
 }
 
 .st-navbar .navbar-toggle .icon-bar {
-	background-color: #000;
+	background-color: #3c4b61;
 }
 
 .st-navbar .navbar-toggle {
@@ -324,7 +352,7 @@ label {
 }
 
 #home-carousel .item:before {
-	background-color: #000;
+	background-color: #3c4b61;
 	content: "";
 	height: 100%;
 	top: 0;
@@ -362,10 +390,16 @@ label {
 	margin-bottom: 20px;
 }
 
+.carousel-caption p,
+ul {
+	letter-spacing: 2px;
+	margin-bottom: 20px;
+}
+
 .home-carousel-left,
 .home-carousel-right {
 	background-color: #f0f0f0;
-	color: #000;
+	color: #3c4b61;
 	font-size: 32px;
 	height: 40px;
 	line-height: 40px;
@@ -456,7 +490,7 @@ label {
 }
 
 .section-title h1 {
-	margin-top: 20;
+	margin-top: 20px;
 }
 
 .text {
@@ -549,7 +583,7 @@ label {
 
 .portfolio-wrapper ul.filter li a:hover,
 .portfolio-wrapper ul.filter li a.active {
-	color: #000;
+	color: #3c4b61;
 }
 
 .portfolio-wrapper .portfolio-items {
@@ -563,7 +597,7 @@ label {
 
 .portfolio-wrapper .portfolio-overlay {
 	position: absolute;
-	background-color: rgba(118, 172, 186, 0.7);
+	background-color: rgba(60, 75, 97, 0.8);
 	color: #fff;
 	left: 0;
 	bottom: 0;
@@ -692,7 +726,7 @@ ul.metas li:last-child:after {
 .office-carousel-left,
 .office-carousel-right {
 	background-color: #f0f0f0;
-	color: #000;
+	color: #3c4b61;
 	font-size: 32px;
 	height: 40px;
 	line-height: 40px;
@@ -900,7 +934,7 @@ ul.metas li:last-child:after {
 .post-carousel-left,
 .post-carousel-right {
 	background-color: #f0f0f0;
-	color: #000;
+	color: #3c4b61;
 	font-size: 32px;
 	height: 40px;
 	line-height: 40px;
@@ -969,8 +1003,8 @@ ul.metas li:last-child:after {
 #blog .pagination li.active a,
 #blog .pagination li a:hover {
 	background-color: transparent;
-	border-color: #000;
-	color: #000;
+	border-color: #3c4b61;
+	color: #3c4b61;
 }
 
 .sidebar-widget {
@@ -1045,8 +1079,8 @@ ul.metas li:last-child:after {
 }
 
 .sidebar-widget .tagcloud a:hover {
-	border-color: #000;
-	color: #000;
+	border-color: #3c4b61;
+	color: #3c4b61;
 }
 
 ul.content-flickr {
@@ -1134,7 +1168,7 @@ ul.content-flickr li {
 	width: 40px;
 	height: 40px;
 	text-align: center;
-	color: #000;
+	color: #3c4b61;
 	font-size: 20px;
 	line-height: 38px;
 	box-shadow: 0px 0px 6px #ccc;
@@ -1143,5 +1177,5 @@ ul.content-flickr li {
 .scroll-up a:hover,
 .scroll-up a:active {
 	background-color: #f5f5f5;
-	color: #000;
+	color: #3c4b61;
 }

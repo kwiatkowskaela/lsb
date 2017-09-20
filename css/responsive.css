@@ -1,195 +1,209 @@
-/* lg */ 
-@media (min-width: 1200px) {
+/* lg */
 
-}
+@media (min-width: 1200px) {}
+
 
 /* md */
-@media (min-width: 992px) and (max-width: 1199px) {
 
-	#home-carousel  .item {
+@media (min-width: 992px) and (max-width: 1199px) {
+	#home-carousel .item {
 		height: 500px;
 	}
-
 	.carousel-caption h1 {
-		font-size:26px;
-		margin-bottom:0;
-		line-height:27px;
-		letter-spacing:2px;
-		font-weight:100;
+		font-size: 26px;
+		margin-bottom: 0;
+		line-height: 27px;
+		letter-spacing: 2px;
+		font-weight: 100;
 	}
-
 	.carousel-caption h2 {
-		font-size:51px;
-		font-weight:600;
-		margin-top:0px;
-		text-transform:lowercase;
-		letter-spacing:2px;
-		margin-bottom:20px;
+		font-size: 51px;
+		font-weight: 600;
+		margin-top: 0px;
+		text-transform: lowercase;
+		letter-spacing: 2px;
+		margin-bottom: 20px;
 	}
-	#our-team, #pricing, #our-works, #services, #contact{
+	#our-team,
+	#pricing,
+	#our-works,
+	#services,
+	#contact {
 		padding-top: 110px;
 		padding-bottom: 100px;
 	}
-
+	#contact {
+		padding-bottom: 120px;
+		margin-top: -80px;
+	}
 }
 
-/* sm */
-@media (min-width: 768px) and (max-width: 991px) {
 
-	.st-navbar ul li a{
+/* sm */
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.logo {
+		margin-left: 15px;
+		top: 11px;
+	}
+	.st-navbar ul li a {
 		margin-left: 13px;
 		margin-right: 13px;
 	}
-
-	#home-carousel  .item {
+	#home-carousel .item {
 		height: 500px;
 	}
-
 	.carousel-caption h1 {
-		font-size:26px;
-		margin-bottom:0;
-		line-height:27px;
-		letter-spacing:2px;
-		font-weight:100;
+		font-size: 26px;
+		margin-bottom: 0;
+		line-height: 27px;
+		letter-spacing: 2px;
+		font-weight: 100;
 	}
-
 	.carousel-caption h2 {
-		font-size:51px;
-		font-weight:600;
-		margin-top:0px;
-		text-transform:lowercase;
-		letter-spacing:2px;
-		margin-bottom:20px;
+		font-size: 51px;
+		font-weight: 600;
+		margin-top: 0px;
+		text-transform: lowercase;
+		letter-spacing: 2px;
+		margin-bottom: 20px;
 	}
-
 	#about-us .about-us {
 		padding-left: 0;
 		padding-right: 0;
 		padding-top: 9%;
 	}
-
-	.scroll-up{
+	.scroll-up {
 		display: none !important;
 	}
-
-	#our-team, #pricing, #our-works, #services, #contact{
+	#our-team,
+	#pricing,
+	#our-works,
+	#services,
+	#contact {
 		padding-top: 100px;
 		padding-bottom: 100px;
 	}
-
-	#fun-facts .col-md-3:nth-child(2) .fun-fact{
+	#fun-facts .col-md-3:nth-child(2) .fun-fact {
 		border-right: 0px;
 	}
-
-	#testimonial{
+	#testimonial {
 		padding-top: 60px;
 		padding-bottom: 60px;
 	}
-
 	#about-us .about-us .btn-send {
 		margin-top: 12px;
 	}
-
-
-
+	.about {
+		padding: 10px;
+		margin: 10px;
+	}
+	#contact {
+		padding-bottom: 120px;
+		margin-top: -50px;
+	}
+	.header-site hgroup {
+		display: none;
+	}
 }
 
+
 /* xs */
+
 @media (max-width: 767px) {
-
-	.logo{
-		margin-left: 15px;
+	.header-site img {
+		display: none;
 	}
-
-	.navbar-nav{
+	.header-site hgroup {
+		display: none;
+	}
+	.about {
+		padding: 10px;
+		margin: 10px;
+	}
+	.text {
+		column-count: 1;
+	}
+	.logo {
+		margin-left: 15px;
+		top: 11px;
+	}
+	.navbar-nav {
 		background-color: #f5f5f5;
 	}
-
-	.st-navbar .navbar-collapse ul{
+	.st-navbar .navbar-collapse ul {
 		margin-top: 18px;
 	}
-
-	#home-carousel  .item {
+	#home-carousel .item {
 		height: 300px;
 	}
-
 	.carousel-caption h1 {
-		font-size:16px;
-		margin-bottom:0;
-		line-height:27px;
-		letter-spacing:2px;
-		font-weight:100;
+		font-size: 16px;
+		margin-bottom: 0;
+		line-height: 27px;
+		letter-spacing: 2px;
+		font-weight: 100;
 	}
-
 	.carousel-caption h2 {
-		font-size:31px;
-		font-weight:600;
-		margin-top:0px;
-		text-transform:lowercase;
-		letter-spacing:2px;
-		margin-bottom:20px;
+		font-size: 31px;
+		font-weight: 600;
+		margin-top: 0px;
+		text-transform: lowercase;
+		letter-spacing: 2px;
+		margin-bottom: 20px;
 	}
-
-	.scroll-up{
+	.scroll-up {
 		display: none !important;
 	}
-
 	.footer-social-icons {
 		text-align: center;
 		margin-bottom: 15px;
 	}
-
-	.copyright{
+	.copyright {
 		text-align: center;
 	}
-
-	#contact{
+	#contact {
 		padding-top: 100px;
 		padding-bottom: 100px;
 	}
-
-	.contact-info{
+	.contact-info {
 		margin-bottom: 50px;
 	}
-
-	#fun-facts .fun-fact{
+	#fun-facts .fun-fact {
 		border-right: 0px;
 		margin-bottom: 30px;
 	}
-
-	#about-us .our-office{
+	#about-us .our-office {
 		padding-left: 0;
 		padding-right: 0;
 	}
-
-	#testimonial{
+	#testimonial {
 		padding-top: 60px;
 		padding-bottom: 60px;
 	}
-
 	#about-us .about-us {
 		padding-left: 5%;
 		padding-right: 5%;
 		padding-top: 10%;
 		padding-bottom: 10%;
 	}
-
-	#our-team, #pricing, #our-works, #services{
+	#our-team,
+	#pricing,
+	#our-works,
+	#services {
 		padding-top: 100px;
 		padding-bottom: 100px;
 	}
-
 	.st-service {
 		margin-top: 50px;
 	}
-
-
-
+	#contact {
+		padding-bottom: 120px;
+		margin-top: -70px;
+	}
 }
+
 
 /* XS Portrait */
-@media (max-width: 479px) {
 
-
-
-}
+@media (max-width: 479px) {}
